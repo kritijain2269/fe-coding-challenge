@@ -1,0 +1,23 @@
+.Player,
+.ButtonWrapper {
+  text-align: center;
+}
+
+.WinnerMessage {
+  color: darkorange;
+  font-size: 25px;
+}
+
+.NextMove {
+  font-size: 25px;
+  color: white;
+}
+
+.CurrentPlayer {
+  margin-left: 10px;
+}
+
+.NoteMessage {
+  font-size: 15px;
+  color: white;
+}

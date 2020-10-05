@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Board 1`] = `
+<div>
+  <h1
+    class="Heading1"
+  >
+    Tic Tac Toe
+  </h1>
+  <div
+    class="ButtonWrapper"
+  >
+    <button
+      class="StartButton"
+      data-testid="btnStartGame"
+    >
+      Start new game
+    </button>
+  </div>
+  <div
+    class="Board"
+  >
+    <div
+      class="BoardRow"
+    >
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+    </div>
+    <div
+      class="BoardRow"
+    >
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+    </div>
+    <div
+      class="BoardRow"
+    >
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+      <div
+        class="Cell CellX"
+        data-testid="cell"
+      />
+    </div>
+  </div>
+  <div
+    class="Player"
+  >
+    <div
+      class="NextMove"
+    >
+      Next move :
+      <span
+        class="CurrentPlayer CellX"
+        data-testid="nextPlayer"
+      >
+        Player 
+        X
+      </span>
+    </div>
+    <div
+      class="ButtonWrapper"
+    >
+      <button
+        class="StartButton"
+        data-testid="btnGenerateRandom"
+      >
+        Generate random
+      </button>
+    </div>
+    <span
+      class="NoteMessage"
+    >
+      Note: You can play this game either by clicking on each cell or geneate random button
+    </span>
+  </div>
+</div>
+`;

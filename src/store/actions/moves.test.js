@@ -12,3 +12,13 @@ describe('selectCell', () => {
     expect(result).toEqual(expectedAction)
   })
 })
+
+describe('resetGame', () => {
+  it('should create an action to reset the game', () => {
+    const expectedAction = {
+      type: Actions.RESET_GAME
+    }
+    const result = Actions.resetGame()
+    expect(result).toEqual(expectedAction)
+  })
+})
